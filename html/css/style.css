@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.box {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%,);
+    width: 400px;
+    padding: 40px;
+    background-color: rgba(rgb(251, 0, 255), rgb(84, 154, 195), blue);
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: aliceblue;
+    text-align: center;
+}
+
+.box .inputBox {
+    position: relative;
+}
+
+.box .inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+
+box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    transform: .5s;
+}
+
